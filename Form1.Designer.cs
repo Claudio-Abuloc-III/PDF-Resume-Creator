@@ -58,10 +58,7 @@
             this.AwardstextBox = new System.Windows.Forms.TextBox();
             this.Certificationlabel = new System.Windows.Forms.Label();
             this.CertificationtextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Savebutton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // FirstNamelabel
@@ -263,7 +260,7 @@
             // WorkExperiencelabel
             // 
             this.WorkExperiencelabel.AutoSize = true;
-            this.WorkExperiencelabel.Location = new System.Drawing.Point(376, 413);
+            this.WorkExperiencelabel.Location = new System.Drawing.Point(29, 417);
             this.WorkExperiencelabel.Name = "WorkExperiencelabel";
             this.WorkExperiencelabel.Size = new System.Drawing.Size(136, 16);
             this.WorkExperiencelabel.TabIndex = 24;
@@ -271,10 +268,10 @@
             // 
             // WorkExperiencetextBox
             // 
-            this.WorkExperiencetextBox.Location = new System.Drawing.Point(462, 432);
+            this.WorkExperiencetextBox.Location = new System.Drawing.Point(107, 432);
             this.WorkExperiencetextBox.Multiline = true;
             this.WorkExperiencetextBox.Name = "WorkExperiencetextBox";
-            this.WorkExperiencetextBox.Size = new System.Drawing.Size(517, 164);
+            this.WorkExperiencetextBox.Size = new System.Drawing.Size(872, 164);
             this.WorkExperiencetextBox.TabIndex = 25;
             // 
             // Awardlabel
@@ -311,23 +308,6 @@
             this.CertificationtextBox.Size = new System.Drawing.Size(218, 91);
             this.CertificationtextBox.TabIndex = 29;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 413);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 16);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "2x2 PICTURE";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(107, 444);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(191, 152);
-            this.pictureBox1.TabIndex = 31;
-            this.pictureBox1.TabStop = false;
-            // 
             // Savebutton
             // 
             this.Savebutton.Location = new System.Drawing.Point(822, 630);
@@ -336,6 +316,7 @@
             this.Savebutton.TabIndex = 32;
             this.Savebutton.Text = "SAVE";
             this.Savebutton.UseVisualStyleBackColor = true;
+            this.Savebutton.Click += new System.EventHandler(this.Savebutton_Click);
             // 
             // PDFResumeForm
             // 
@@ -343,8 +324,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 677);
             this.Controls.Add(this.Savebutton);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.CertificationtextBox);
             this.Controls.Add(this.Certificationlabel);
             this.Controls.Add(this.AwardstextBox);
@@ -377,7 +356,6 @@
             this.Controls.Add(this.FirstNamelabel);
             this.Name = "PDFResumeForm";
             this.Text = "PDF RESUME CREATOR";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -415,8 +393,6 @@
         private System.Windows.Forms.TextBox AwardstextBox;
         private System.Windows.Forms.Label Certificationlabel;
         private System.Windows.Forms.TextBox CertificationtextBox;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Savebutton;
     }
 }
