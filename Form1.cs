@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace PDF_Resume_Creator
 {
-    public partial class Form1 : Form
+    public partial class PDFResumeForm : Form
     {
-        public Form1()
+        public PDFResumeForm()
         {
             InitializeComponent();
         }
+
+
     }
 }
