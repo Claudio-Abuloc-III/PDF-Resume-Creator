@@ -64,25 +64,29 @@
             // FirstNamelabel
             // 
             this.FirstNamelabel.AutoSize = true;
-            this.FirstNamelabel.Location = new System.Drawing.Point(29, 36);
+            this.FirstNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstNamelabel.ForeColor = System.Drawing.Color.Snow;
+            this.FirstNamelabel.Location = new System.Drawing.Point(27, 29);
             this.FirstNamelabel.Name = "FirstNamelabel";
-            this.FirstNamelabel.Size = new System.Drawing.Size(72, 16);
+            this.FirstNamelabel.Size = new System.Drawing.Size(116, 25);
             this.FirstNamelabel.TabIndex = 0;
             this.FirstNamelabel.Text = "First Name";
             // 
             // FirstNametextBox
             // 
-            this.FirstNametextBox.Location = new System.Drawing.Point(107, 33);
+            this.FirstNametextBox.Location = new System.Drawing.Point(159, 33);
             this.FirstNametextBox.Name = "FirstNametextBox";
-            this.FirstNametextBox.Size = new System.Drawing.Size(389, 22);
+            this.FirstNametextBox.Size = new System.Drawing.Size(337, 22);
             this.FirstNametextBox.TabIndex = 1;
             // 
             // Surnamelabel
             // 
             this.Surnamelabel.AutoSize = true;
-            this.Surnamelabel.Location = new System.Drawing.Point(569, 36);
+            this.Surnamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Surnamelabel.ForeColor = System.Drawing.Color.Snow;
+            this.Surnamelabel.Location = new System.Drawing.Point(531, 36);
             this.Surnamelabel.Name = "Surnamelabel";
-            this.Surnamelabel.Size = new System.Drawing.Size(61, 16);
+            this.Surnamelabel.Size = new System.Drawing.Size(99, 25);
             this.Surnamelabel.TabIndex = 2;
             this.Surnamelabel.Text = "Surname";
             // 
@@ -96,9 +100,11 @@
             // Phonelabel
             // 
             this.Phonelabel.AutoSize = true;
-            this.Phonelabel.Location = new System.Drawing.Point(29, 109);
+            this.Phonelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Phonelabel.ForeColor = System.Drawing.Color.Snow;
+            this.Phonelabel.Location = new System.Drawing.Point(29, 106);
             this.Phonelabel.Name = "Phonelabel";
-            this.Phonelabel.Size = new System.Drawing.Size(46, 16);
+            this.Phonelabel.Size = new System.Drawing.Size(74, 25);
             this.Phonelabel.TabIndex = 4;
             this.Phonelabel.Text = "Phone";
             // 
@@ -112,9 +118,11 @@
             // Emaillabel
             // 
             this.Emaillabel.AutoSize = true;
-            this.Emaillabel.Location = new System.Drawing.Point(29, 141);
+            this.Emaillabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Emaillabel.ForeColor = System.Drawing.Color.Snow;
+            this.Emaillabel.Location = new System.Drawing.Point(29, 138);
             this.Emaillabel.Name = "Emaillabel";
-            this.Emaillabel.Size = new System.Drawing.Size(41, 16);
+            this.Emaillabel.Size = new System.Drawing.Size(65, 25);
             this.Emaillabel.TabIndex = 6;
             this.Emaillabel.Text = "Email";
             // 
@@ -128,9 +136,11 @@
             // Homelabel
             // 
             this.Homelabel.AutoSize = true;
+            this.Homelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Homelabel.ForeColor = System.Drawing.Color.Snow;
             this.Homelabel.Location = new System.Drawing.Point(29, 177);
             this.Homelabel.Name = "Homelabel";
-            this.Homelabel.Size = new System.Drawing.Size(44, 16);
+            this.Homelabel.Size = new System.Drawing.Size(68, 25);
             this.Homelabel.TabIndex = 8;
             this.Homelabel.Text = "Home";
             // 
@@ -144,18 +154,22 @@
             // Contactlabel
             // 
             this.Contactlabel.AutoSize = true;
-            this.Contactlabel.Location = new System.Drawing.Point(164, 81);
+            this.Contactlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Contactlabel.ForeColor = System.Drawing.Color.Snow;
+            this.Contactlabel.Location = new System.Drawing.Point(154, 72);
             this.Contactlabel.Name = "Contactlabel";
-            this.Contactlabel.Size = new System.Drawing.Size(72, 16);
+            this.Contactlabel.Size = new System.Drawing.Size(119, 25);
             this.Contactlabel.TabIndex = 10;
             this.Contactlabel.Text = "CONTACT";
             // 
             // Skillslabel
             // 
             this.Skillslabel.AutoSize = true;
-            this.Skillslabel.Location = new System.Drawing.Point(173, 231);
+            this.Skillslabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Skillslabel.ForeColor = System.Drawing.Color.Snow;
+            this.Skillslabel.Location = new System.Drawing.Point(154, 222);
             this.Skillslabel.Name = "Skillslabel";
-            this.Skillslabel.Size = new System.Drawing.Size(50, 16);
+            this.Skillslabel.Size = new System.Drawing.Size(87, 25);
             this.Skillslabel.TabIndex = 11;
             this.Skillslabel.Text = "SKILLS";
             // 
@@ -170,9 +184,11 @@
             // Educationlabel
             // 
             this.Educationlabel.AutoSize = true;
+            this.Educationlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Educationlabel.ForeColor = System.Drawing.Color.Snow;
             this.Educationlabel.Location = new System.Drawing.Point(655, 81);
             this.Educationlabel.Name = "Educationlabel";
-            this.Educationlabel.Size = new System.Drawing.Size(86, 16);
+            this.Educationlabel.Size = new System.Drawing.Size(139, 25);
             this.Educationlabel.TabIndex = 13;
             this.Educationlabel.Text = "EDUCATION";
             // 
@@ -187,18 +203,22 @@
             // Elementarylabel
             // 
             this.Elementarylabel.AutoSize = true;
-            this.Elementarylabel.Location = new System.Drawing.Point(376, 109);
+            this.Elementarylabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Elementarylabel.ForeColor = System.Drawing.Color.Snow;
+            this.Elementarylabel.Location = new System.Drawing.Point(374, 102);
             this.Elementarylabel.Name = "Elementarylabel";
-            this.Elementarylabel.Size = new System.Drawing.Size(120, 16);
+            this.Elementarylabel.Size = new System.Drawing.Size(193, 25);
             this.Elementarylabel.TabIndex = 15;
             this.Elementarylabel.Text = "Elementary School";
             // 
             // SYlabel
             // 
             this.SYlabel.AutoSize = true;
-            this.SYlabel.Location = new System.Drawing.Point(797, 109);
+            this.SYlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SYlabel.ForeColor = System.Drawing.Color.Snow;
+            this.SYlabel.Location = new System.Drawing.Point(800, 102);
             this.SYlabel.Name = "SYlabel";
-            this.SYlabel.Size = new System.Drawing.Size(81, 16);
+            this.SYlabel.Size = new System.Drawing.Size(130, 25);
             this.SYlabel.TabIndex = 16;
             this.SYlabel.Text = "School Year";
             // 
@@ -212,15 +232,17 @@
             // HighSchoollabel
             // 
             this.HighSchoollabel.AutoSize = true;
-            this.HighSchoollabel.Location = new System.Drawing.Point(376, 159);
+            this.HighSchoollabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HighSchoollabel.ForeColor = System.Drawing.Color.Snow;
+            this.HighSchoollabel.Location = new System.Drawing.Point(374, 153);
             this.HighSchoollabel.Name = "HighSchoollabel";
-            this.HighSchoollabel.Size = new System.Drawing.Size(80, 16);
+            this.HighSchoollabel.Size = new System.Drawing.Size(129, 25);
             this.HighSchoollabel.TabIndex = 18;
             this.HighSchoollabel.Text = "High School";
             // 
             // HighSchooltextBox
             // 
-            this.HighSchooltextBox.Location = new System.Drawing.Point(462, 174);
+            this.HighSchooltextBox.Location = new System.Drawing.Point(462, 181);
             this.HighSchooltextBox.Multiline = true;
             this.HighSchooltextBox.Name = "HighSchooltextBox";
             this.HighSchooltextBox.Size = new System.Drawing.Size(269, 22);
@@ -228,7 +250,7 @@
             // 
             // SYHighschooltextBox
             // 
-            this.SYHighschooltextBox.Location = new System.Drawing.Point(761, 171);
+            this.SYHighschooltextBox.Location = new System.Drawing.Point(761, 181);
             this.SYHighschooltextBox.Name = "SYHighschooltextBox";
             this.SYHighschooltextBox.Size = new System.Drawing.Size(218, 22);
             this.SYHighschooltextBox.TabIndex = 20;
@@ -236,15 +258,17 @@
             // Collegelabel
             // 
             this.Collegelabel.AutoSize = true;
+            this.Collegelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Collegelabel.ForeColor = System.Drawing.Color.Snow;
             this.Collegelabel.Location = new System.Drawing.Point(376, 213);
             this.Collegelabel.Name = "Collegelabel";
-            this.Collegelabel.Size = new System.Drawing.Size(123, 16);
+            this.Collegelabel.Size = new System.Drawing.Size(200, 25);
             this.Collegelabel.TabIndex = 21;
             this.Collegelabel.Text = "College / University";
             // 
             // CollegetextBox
             // 
-            this.CollegetextBox.Location = new System.Drawing.Point(462, 232);
+            this.CollegetextBox.Location = new System.Drawing.Point(462, 241);
             this.CollegetextBox.Multiline = true;
             this.CollegetextBox.Name = "CollegetextBox";
             this.CollegetextBox.Size = new System.Drawing.Size(269, 22);
@@ -252,7 +276,7 @@
             // 
             // SYCollegetextBox
             // 
-            this.SYCollegetextBox.Location = new System.Drawing.Point(761, 232);
+            this.SYCollegetextBox.Location = new System.Drawing.Point(761, 241);
             this.SYCollegetextBox.Name = "SYCollegetextBox";
             this.SYCollegetextBox.Size = new System.Drawing.Size(218, 22);
             this.SYCollegetextBox.TabIndex = 23;
@@ -260,9 +284,11 @@
             // WorkExperiencelabel
             // 
             this.WorkExperiencelabel.AutoSize = true;
-            this.WorkExperiencelabel.Location = new System.Drawing.Point(29, 417);
+            this.WorkExperiencelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkExperiencelabel.ForeColor = System.Drawing.Color.Snow;
+            this.WorkExperiencelabel.Location = new System.Drawing.Point(29, 404);
             this.WorkExperiencelabel.Name = "WorkExperiencelabel";
-            this.WorkExperiencelabel.Size = new System.Drawing.Size(136, 16);
+            this.WorkExperiencelabel.Size = new System.Drawing.Size(221, 25);
             this.WorkExperiencelabel.TabIndex = 24;
             this.WorkExperiencelabel.Text = "WORK EXPERIENCE";
             // 
@@ -277,15 +303,17 @@
             // Awardlabel
             // 
             this.Awardlabel.AutoSize = true;
+            this.Awardlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Awardlabel.ForeColor = System.Drawing.Color.Snow;
             this.Awardlabel.Location = new System.Drawing.Point(376, 277);
             this.Awardlabel.Name = "Awardlabel";
-            this.Awardlabel.Size = new System.Drawing.Size(67, 16);
+            this.Awardlabel.Size = new System.Drawing.Size(107, 25);
             this.Awardlabel.TabIndex = 26;
             this.Awardlabel.Text = "AWARDS";
             // 
             // AwardstextBox
             // 
-            this.AwardstextBox.Location = new System.Drawing.Point(462, 298);
+            this.AwardstextBox.Location = new System.Drawing.Point(462, 305);
             this.AwardstextBox.Multiline = true;
             this.AwardstextBox.Name = "AwardstextBox";
             this.AwardstextBox.Size = new System.Drawing.Size(269, 91);
@@ -294,15 +322,17 @@
             // Certificationlabel
             // 
             this.Certificationlabel.AutoSize = true;
-            this.Certificationlabel.Location = new System.Drawing.Point(758, 277);
+            this.Certificationlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Certificationlabel.ForeColor = System.Drawing.Color.Snow;
+            this.Certificationlabel.Location = new System.Drawing.Point(752, 277);
             this.Certificationlabel.Name = "Certificationlabel";
-            this.Certificationlabel.Size = new System.Drawing.Size(108, 16);
+            this.Certificationlabel.Size = new System.Drawing.Size(178, 25);
             this.Certificationlabel.TabIndex = 28;
             this.Certificationlabel.Text = "CERTIFICATION";
             // 
             // CertificationtextBox
             // 
-            this.CertificationtextBox.Location = new System.Drawing.Point(761, 298);
+            this.CertificationtextBox.Location = new System.Drawing.Point(761, 305);
             this.CertificationtextBox.Multiline = true;
             this.CertificationtextBox.Name = "CertificationtextBox";
             this.CertificationtextBox.Size = new System.Drawing.Size(218, 91);
@@ -310,18 +340,22 @@
             // 
             // Savebutton
             // 
+            this.Savebutton.BackColor = System.Drawing.Color.Teal;
+            this.Savebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Savebutton.ForeColor = System.Drawing.Color.Snow;
             this.Savebutton.Location = new System.Drawing.Point(822, 630);
             this.Savebutton.Name = "Savebutton";
             this.Savebutton.Size = new System.Drawing.Size(157, 35);
             this.Savebutton.TabIndex = 32;
             this.Savebutton.Text = "SAVE";
-            this.Savebutton.UseVisualStyleBackColor = true;
+            this.Savebutton.UseVisualStyleBackColor = false;
             this.Savebutton.Click += new System.EventHandler(this.Savebutton_Click);
             // 
             // PDFResumeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1027, 677);
             this.Controls.Add(this.Savebutton);
             this.Controls.Add(this.CertificationtextBox);

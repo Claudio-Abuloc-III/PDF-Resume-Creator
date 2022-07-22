@@ -36,6 +36,17 @@ namespace PDF_Resume_Creator
             file.WriteLine("Work Experience: " + WorkExperiencetextBox.Text);
             file.Close();
             FirstNametextBox.Text = "";
+            SurnametextBox.Text = "";
+            PhonetextBox.Text = "";
+            EmailtextBox.Text = "";
+            HometextBox.Text = "";
+            SkillstextBox.Text = "";
+            ElementarytextBox.Text = "";
+            HighSchooltextBox.Text = "";
+            CollegetextBox.Text = "";
+            AwardstextBox.Text = "";
+            CertificationtextBox.Text = "";
+            WorkExperiencetextBox.Text = "";
         }
     }
 }
