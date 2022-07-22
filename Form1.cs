@@ -21,8 +21,8 @@ namespace PDF_Resume_Creator
 
         private void Savebutton_Click(object sender, EventArgs e)
         {
-            
-            StreamWriter file = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\Resume.json", true);
+            StreamWriter file = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\Resume.pdf", true);
+            _ = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\Resume.json", true);
             file.WriteLine("Name: " + FirstNametextBox.Text + SurnametextBox.Text);
             file.WriteLine("Phone: " + PhonetextBox.Text);
             file.WriteLine("Email: " + EmailtextBox.Text);

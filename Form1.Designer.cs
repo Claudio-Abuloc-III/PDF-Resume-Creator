@@ -364,12 +364,15 @@
             // 
             // Readbutton
             // 
+            this.Readbutton.BackColor = System.Drawing.Color.Teal;
+            this.Readbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Readbutton.ForeColor = System.Drawing.Color.Snow;
             this.Readbutton.Location = new System.Drawing.Point(1032, 85);
             this.Readbutton.Name = "Readbutton";
-            this.Readbutton.Size = new System.Drawing.Size(75, 23);
+            this.Readbutton.Size = new System.Drawing.Size(160, 37);
             this.Readbutton.TabIndex = 34;
             this.Readbutton.Text = "READ";
-            this.Readbutton.UseVisualStyleBackColor = true;
+            this.Readbutton.UseVisualStyleBackColor = false;
             this.Readbutton.Click += new System.EventHandler(this.Readbutton_Click);
             // 
             // PDFResumeForm
