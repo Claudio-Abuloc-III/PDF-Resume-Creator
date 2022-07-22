@@ -48,5 +48,17 @@ namespace PDF_Resume_Creator
             CertificationtextBox.Text = "";
             WorkExperiencetextBox.Text = "";
         }
+
+        private void Readbutton_Click(object sender, EventArgs e)
+        {
+            ReadlistBox.Items.Clear();
+            StreamReader reader = new StreamReader(@"D:\Claudio Abuloc Files\Contact Tracing\Resume.json");
+            while (!reader.EndOfStream)
+            {
+                ReadlistBox.Items.Add(reader.ReadLine());
+            }
+            reader.Close();
+
+        }
     }
 }

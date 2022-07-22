@@ -59,6 +59,8 @@
             this.Certificationlabel = new System.Windows.Forms.Label();
             this.CertificationtextBox = new System.Windows.Forms.TextBox();
             this.Savebutton = new System.Windows.Forms.Button();
+            this.ReadlistBox = new System.Windows.Forms.ListBox();
+            this.Readbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstNamelabel
@@ -94,7 +96,7 @@
             // 
             this.SurnametextBox.Location = new System.Drawing.Point(636, 36);
             this.SurnametextBox.Name = "SurnametextBox";
-            this.SurnametextBox.Size = new System.Drawing.Size(368, 22);
+            this.SurnametextBox.Size = new System.Drawing.Size(343, 22);
             this.SurnametextBox.TabIndex = 3;
             // 
             // Phonelabel
@@ -351,12 +353,33 @@
             this.Savebutton.UseVisualStyleBackColor = false;
             this.Savebutton.Click += new System.EventHandler(this.Savebutton_Click);
             // 
+            // ReadlistBox
+            // 
+            this.ReadlistBox.FormattingEnabled = true;
+            this.ReadlistBox.ItemHeight = 16;
+            this.ReadlistBox.Location = new System.Drawing.Point(1032, 128);
+            this.ReadlistBox.Name = "ReadlistBox";
+            this.ReadlistBox.Size = new System.Drawing.Size(259, 468);
+            this.ReadlistBox.TabIndex = 33;
+            // 
+            // Readbutton
+            // 
+            this.Readbutton.Location = new System.Drawing.Point(1032, 85);
+            this.Readbutton.Name = "Readbutton";
+            this.Readbutton.Size = new System.Drawing.Size(75, 23);
+            this.Readbutton.TabIndex = 34;
+            this.Readbutton.Text = "READ";
+            this.Readbutton.UseVisualStyleBackColor = true;
+            this.Readbutton.Click += new System.EventHandler(this.Readbutton_Click);
+            // 
             // PDFResumeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(1027, 677);
+            this.ClientSize = new System.Drawing.Size(1324, 677);
+            this.Controls.Add(this.Readbutton);
+            this.Controls.Add(this.ReadlistBox);
             this.Controls.Add(this.Savebutton);
             this.Controls.Add(this.CertificationtextBox);
             this.Controls.Add(this.Certificationlabel);
@@ -428,6 +451,8 @@
         private System.Windows.Forms.Label Certificationlabel;
         private System.Windows.Forms.TextBox CertificationtextBox;
         private System.Windows.Forms.Button Savebutton;
+        private System.Windows.Forms.ListBox ReadlistBox;
+        private System.Windows.Forms.Button Readbutton;
     }
 }
 
