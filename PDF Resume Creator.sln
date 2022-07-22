@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Resume Creator", "PDF Resume Creator.csproj", "{B6B81C55-FCA0-4ABA-BD01-D6C116C3DF94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF", "..\PDF\PDF.csproj", "{4C70FF77-E3F8-4D2C-8E3B-EABD6EA610C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B6B81C55-FCA0-4ABA-BD01-D6C116C3DF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B81C55-FCA0-4ABA-BD01-D6C116C3DF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B81C55-FCA0-4ABA-BD01-D6C116C3DF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C70FF77-E3F8-4D2C-8E3B-EABD6EA610C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C70FF77-E3F8-4D2C-8E3B-EABD6EA610C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C70FF77-E3F8-4D2C-8E3B-EABD6EA610C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C70FF77-E3F8-4D2C-8E3B-EABD6EA610C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

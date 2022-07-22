@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 
 namespace PDF_Resume_Creator
 {
@@ -21,8 +22,8 @@ namespace PDF_Resume_Creator
 
         private void Savebutton_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\Resume.pdf", true);
-            _ = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\Resume.json", true);
+
+            StreamWriter file = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\Resume.json", true);
             file.WriteLine("Name: " + FirstNametextBox.Text + SurnametextBox.Text);
             file.WriteLine("Phone: " + PhonetextBox.Text);
             file.WriteLine("Email: " + EmailtextBox.Text);
@@ -58,6 +59,48 @@ namespace PDF_Resume_Creator
                 ReadlistBox.Items.Add(reader.ReadLine());
             }
             reader.Close();
+
+        }
+
+        private void PDFbutton_Click(object sender, EventArgs e)
+        {
+            Document doc = new Document(iTextSharp.text.PageSize.LETTER,10,10,42,35);
+            PdfWriter wri = PdfWriter.GetInstance(doc, new FileStream(SurnametextBox.Text+FirstNametextBox.Text+".pdf", FileMode.Create));
+            doc.Open();
+            Paragraph Name = new Paragraph ("Name: " + FirstNametextBox.Text + SurnametextBox.Text);
+            Paragraph Phone = new Paragraph("Phone: " + PhonetextBox.Text);
+            Paragraph Email = new Paragraph("Email: " + EmailtextBox.Text);
+            Paragraph Home = new Paragraph("Home: " + HometextBox.Text);
+            Paragraph Skills = new Paragraph("Skills: " + SkillstextBox.Text);
+            Paragraph Elementary = new Paragraph("Elementary School: " + ElementarytextBox.Text + "" + SYElementarytextBox.Text);
+            Paragraph HS = new Paragraph("High School: " + HighSchooltextBox.Text + "" + SYHighschooltextBox.Text);
+            Paragraph College = new Paragraph("College/University: " + CollegetextBox.Text + "" + SYCollegetextBox.Text);
+            Paragraph Awards = new Paragraph("Awards: " + AwardstextBox.Text);
+            Paragraph Certification = new Paragraph("Certification: " + CertificationtextBox.Text);
+            Paragraph Work = new Paragraph("Work Experience: " + WorkExperiencetextBox.Text);
+            doc.Add(Name);
+            
+     
+            doc.Add (Phone);
+            
+            doc.Add(Email);
+            
+            doc.Add((Home));
+            
+            doc.Add(Skills);
+            
+            doc.Add ((Elementary));
+            
+            doc.Add(HS);
+            
+            doc.Add(College);
+            
+            doc.Add(Awards);
+            
+            doc.Add((Certification));
+            
+            doc.Add (Work);
+            doc.Close();
 
         }
     }

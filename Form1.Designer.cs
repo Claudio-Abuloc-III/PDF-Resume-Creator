@@ -61,6 +61,7 @@
             this.Savebutton = new System.Windows.Forms.Button();
             this.ReadlistBox = new System.Windows.Forms.ListBox();
             this.Readbutton = new System.Windows.Forms.Button();
+            this.PDFbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstNamelabel
@@ -375,12 +376,23 @@
             this.Readbutton.UseVisualStyleBackColor = false;
             this.Readbutton.Click += new System.EventHandler(this.Readbutton_Click);
             // 
+            // PDFbutton
+            // 
+            this.PDFbutton.Location = new System.Drawing.Point(1105, 624);
+            this.PDFbutton.Name = "PDFbutton";
+            this.PDFbutton.Size = new System.Drawing.Size(75, 23);
+            this.PDFbutton.TabIndex = 35;
+            this.PDFbutton.Text = "PDF";
+            this.PDFbutton.UseVisualStyleBackColor = true;
+            this.PDFbutton.Click += new System.EventHandler(this.PDFbutton_Click);
+            // 
             // PDFResumeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1324, 677);
+            this.Controls.Add(this.PDFbutton);
             this.Controls.Add(this.Readbutton);
             this.Controls.Add(this.ReadlistBox);
             this.Controls.Add(this.Savebutton);
@@ -456,6 +468,7 @@
         private System.Windows.Forms.Button Savebutton;
         private System.Windows.Forms.ListBox ReadlistBox;
         private System.Windows.Forms.Button Readbutton;
+        private System.Windows.Forms.Button PDFbutton;
     }
 }
 

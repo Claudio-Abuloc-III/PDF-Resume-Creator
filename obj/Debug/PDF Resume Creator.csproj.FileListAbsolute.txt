@@ -9,3 +9,7 @@ C:\Users\Claudine\source\repos\PDF Resume Creator\obj\Debug\PDF Resume Creator.c
 C:\Users\Claudine\source\repos\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CoreCompileInputs.cache
 C:\Users\Claudine\source\repos\PDF Resume Creator\obj\Debug\PDF Resume Creator.exe
 C:\Users\Claudine\source\repos\PDF Resume Creator\obj\Debug\PDF Resume Creator.pdb
+C:\Users\Claudine\source\repos\PDF Resume Creator\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Claudine\source\repos\PDF Resume Creator\bin\Debug\itextsharp.dll
+C:\Users\Claudine\source\repos\PDF Resume Creator\bin\Debug\itextsharp.xml
+C:\Users\Claudine\source\repos\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CopyComplete
